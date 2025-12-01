@@ -1,0 +1,5 @@
+foo line 1
+bar line 2
+foo another line
+baz line
+foo last one
