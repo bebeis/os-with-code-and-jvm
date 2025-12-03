@@ -1,6 +1,7 @@
-package scheduler.scheduler;
+package scheduler.basic;
 
-import scheduler.job.Job;
+import scheduler.basic.scheduler.SchedulingPolicy;
+import scheduler.basic.job.Job;
 
 import java.util.Comparator;
 import java.util.List;

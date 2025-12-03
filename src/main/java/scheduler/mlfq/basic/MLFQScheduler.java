@@ -1,4 +1,4 @@
-package mlfq.basic;
+package scheduler.mlfq.basic;
 
 import java.util.ArrayDeque;
 import java.util.ArrayList;

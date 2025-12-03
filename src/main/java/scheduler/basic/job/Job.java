@@ -1,4 +1,4 @@
-package scheduler.job;
+package scheduler.basic.job;
 
 public class Job {
     private final String id;

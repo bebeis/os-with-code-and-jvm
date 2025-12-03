@@ -1,4 +1,4 @@
-package mlfq.advanced;
+package scheduler.mlfq.advanced;
 
 public enum BurstType {
     CPU,

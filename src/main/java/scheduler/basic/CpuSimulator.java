@@ -1,7 +1,7 @@
-package scheduler;
+package scheduler.basic;
 
-import scheduler.job.Job;
-import scheduler.scheduler.SchedulingPolicy;
+import scheduler.basic.job.Job;
+import scheduler.basic.scheduler.SchedulingPolicy;
 
 import java.util.ArrayList;
 import java.util.List;

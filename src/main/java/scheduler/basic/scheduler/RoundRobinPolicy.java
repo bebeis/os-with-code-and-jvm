@@ -1,10 +1,8 @@
-package scheduler.scheduler;
+package scheduler.basic.scheduler;
 
-import scheduler.job.Job;
+import scheduler.basic.job.Job;
 
-import java.util.ArrayDeque;
 import java.util.ArrayList;
-import java.util.Deque;
 import java.util.List;
 
 /**

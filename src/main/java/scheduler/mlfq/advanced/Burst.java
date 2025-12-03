@@ -1,4 +1,4 @@
-package mlfq.advanced;
+package scheduler.mlfq.advanced;
 
 public class Burst {
     final BurstType type;

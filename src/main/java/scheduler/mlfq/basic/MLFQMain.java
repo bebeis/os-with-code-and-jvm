@@ -1,4 +1,4 @@
-package mlfq.basic;
+package scheduler.mlfq.basic;
 
 public class MLFQMain {
 
