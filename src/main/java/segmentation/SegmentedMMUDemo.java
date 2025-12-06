@@ -44,9 +44,9 @@ public class SegmentedMMUDemo {
             System.out.println("Expected fault (code write): " + e.getMessage());
         }
 
-        // 바운드 에러 예시: heap limit(8KB) 밖 offset 사용
+        // 바운드 에러 예시: heap limit(2KB) 밖 offset(3KB) 사용
         System.out.println("\n힙의 limit 밖의 offset에 접근(트랩 발생)");
-        int heapOobVa = makeVirtualAddress(1, 9 * 1024); // 9KB offset
+        int heapOobVa = makeVirtualAddress(1, 3 * 1024); // 9KB offset
         try {
             int pa = mmu.translate(heapOobVa, AccessType.READ);
             System.out.println("Heap OOB VA=" + heapOobVa + " -> PA=" + pa);

@@ -26,7 +26,7 @@ public class SegmentedMMU {
         segments[1] = new Segment(
                 "heap",
                 0x4000,          // base
-                8 * 1024,        // limit
+                2 * 1024,        // limit
                 false,           // growsDown
                 true,            // canRead
                 true,            // canWrite
